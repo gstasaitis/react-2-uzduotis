@@ -1,0 +1,44 @@
+header { 
+    height: 250px;
+    background-image: url('../images/bg1.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: 100vw;
+    background-position-y: -400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 25px;
+}
+
+p { 
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+button { 
+    margin: 25px;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    background: rgba(43, 38, 102, 0.85);
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background: rgb(43, 38, 102);
+}
