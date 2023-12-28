@@ -9,12 +9,12 @@ import Index from './components/Index'
 
 function App() {
   const cardData = [
-    { image: 'images/card1.jpg', text: 'Ipsum Feugiat' },
+    { image: './src/images/card1.jpg', text: 'Ipsum Feugiat' },
     { image: './src/images/card2.jpg', text: 'Ipsum Feugiat' },
-    { image: './images/card3.jpg', text: 'Ipsum Feugiat' },
-    { image: '/images/card4.jpg', text: 'Ipsum Feugiat' },
-    { image: '//images/card5.jpg', text: 'Ipsum Feugiat' },
-    { image: './../images/card6.jpg', text: 'Ipsum Feugiat' },
+    { image: './src/images/card3.jpg', text: 'Ipsum Feugiat' },
+    { image: './src/images/card4.jpg', text: 'Ipsum Feugiat' },
+    { image: './src/images/card5.jpg', text: 'Ipsum Feugiat' },
+    { image: './src/images/card6.jpg', text: 'Ipsum Feugiat' },
   ]
   return (
     <>
