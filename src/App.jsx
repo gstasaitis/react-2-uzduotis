@@ -9,7 +9,7 @@ import Index from './components/Index'
 
 function App() {
   const cardData = [
-    { image: 'src/images/card1.jpg', text: 'Ipsum Feugiat' },
+    { image: '/src/images/card1.jpg', text: 'Ipsum Feugiat' },
     { image: 'src/images/card2.jpg', text: 'Ipsum Feugiat' },
     { image: 'src/images/card3.jpg', text: 'Ipsum Feugiat' },
     { image: 'src/images/card4.jpg', text: 'Ipsum Feugiat' },
